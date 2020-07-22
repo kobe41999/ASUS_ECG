@@ -6,7 +6,7 @@ deviceID = "VivowatchSE-SNC-0001"
 
 startTime = "20200515000000"
 
-endTime = "20200720000000"
+endTime = "20200723000000"
 
 schema = "omnicare_ecg"
 
