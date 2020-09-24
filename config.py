@@ -2,11 +2,11 @@ getTokenUrl = "https://omnicare.asus.life/auth/user"
 
 User = {"uid": "jimmy850419@gmail.com", "pwd": "abcd1234"}
 
-deviceID = "VivowatchSE-SNC-0001"
+deviceID = "VivowatchSE-SNC-0003"
 
-startTime = "20200515000000"
+startTime = "20200815000000"
 
-endTime = "20200723000000"
+endTime = "20200920000000"
 
 schema = "omnicare_ecg"
 
