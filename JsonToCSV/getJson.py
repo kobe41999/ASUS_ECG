@@ -10,8 +10,7 @@ def getToken():
 
 
 def getData(Token):
-    r = requests.get(C.getDataUrl, headers={'Authorization': Token})
+    r = requests.get(C.getSchemaUrl, headers={'Authorization': Token})
     jsonResponse = r.json()
-    ecg_data = jsonResponse['data']['omnicare_ecg']
-    print(ecg_data)
+    ecg_data = jsonResponse['data']
     return ecg_data

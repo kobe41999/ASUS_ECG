@@ -1,0 +1,21 @@
+# slotId/採樣資料的序號[1]: Integer
+
+# qrs/QRS區間[0,1]: double (s)
+
+# st/ST值[0,1]: double (mm)
+
+# data[0,1]: String
+
+# origin/設定原點值[0,1]: Integer
+
+# period/取樣時間長度[0,1]: Integer (ms)
+
+# factor/校正因子[0,1]: double
+
+# lowerLimit/採樣資料的下限值[0,1]: Integer
+
+# upperLimit/採樣資料的上限值[0,1]: Integer
+
+# dimensions/採樣數[0,1]: Integer
+
+# description/資料描述[0,1]: String

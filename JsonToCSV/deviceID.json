@@ -3,11 +3,6 @@
     "description": "OK",
     "data": [
         {
-            "deviceId": "ASUSLife-vivowatchbp-00003",
-            "startTime": "2020-04-06 00:00:00",
-            "endTime": "2020-12-31 00:00:00"
-        },
-        {
             "deviceId": "VivowatchSE-SNC-0001",
             "startTime": "2020-05-15 00:00:00",
             "endTime": "2021-06-30 00:00:00"

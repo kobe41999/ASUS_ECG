@@ -259,7 +259,7 @@ class ProcessData:
                     if (self.args.filter == "none"):
                         temp_signalfilt = temp_signalnpTlist
                     else:
-                        if (self.args.filter == "lowpass"):
+                        if self.args.filter == "lowpass":
                             temp_signalfilt = self.filter_signal(temp_signalnpTlist, self.args.lp_ct,
                                                                  self.args.sample_rate, self.args.order,
                                                                  self.args.filter)

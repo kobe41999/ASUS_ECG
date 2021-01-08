@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="929ec6e0-9535-411d-8c19-2361cbcd6ceb" name="Default Changelist" comment="" />
+    <list default="true" id="929ec6e0-9535-411d-8c19-2361cbcd6ceb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ASUS_ECG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASUS_ECG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonToCSV/convertCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonToCSV/convertCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonToCSV/deviceID.json" beforeDir="false" afterPath="$PROJECT_DIR$/JsonToCSV/deviceID.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonToCSV/getJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonToCSV/getJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonToCSV/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreProcess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeTrainData.py" beforeDir="false" afterPath="$PROJECT_DIR$/makeTrainData.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,15 +37,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DjangoTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JsonToCSV" />
       <recent name="C:\Users\kobe41999\Documents\ASUS_ECG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.convertCSV">
+  <component name="RunManager" selected="Python.filter">
     <configuration name="convertCSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ASUS_ECG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +61,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JsonToCSV/convertCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASUS_ECG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASUS_ECG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JsonToCSV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JsonToCSV/getJson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="makeTrainData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ASUS_ECG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/makeTrainData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.filter" />
+        <item itemvalue="Python.makeTrainData (1)" />
         <item itemvalue="Python.convertCSV" />
+        <item itemvalue="Python.getJson" />
         <item itemvalue="Python.makeTrainData" />
       </list>
     </recent_temporary>
@@ -103,6 +184,9 @@
       <workItem from="1599042633557" duration="47000" />
       <workItem from="1600786325627" duration="11000" />
       <workItem from="1600939408957" duration="5043000" />
+      <workItem from="1604994581425" duration="665000" />
+      <workItem from="1607807043118" duration="21000" />
+      <workItem from="1610090286295" duration="14589000" />
     </task>
     <servers />
   </component>
@@ -110,69 +194,32 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="720" y="252" key="FileChooserDialogImpl" timestamp="1600786335562">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1238" height="250" key="GridCell.Tab.0.bottom" timestamp="1610106711474">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="960" y="339" key="FileChooserDialogImpl/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595851376819" />
-    <state x="720" y="252" key="FileChooserDialogImpl/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600786335562" />
-    <state width="1867" height="119" key="GridCell.Tab.0.bottom" timestamp="1600945974788">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1238" height="250" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610106711474" />
+    <state width="1238" height="250" key="GridCell.Tab.0.center" timestamp="1610106711472">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1855" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.12.1920.1040@-1920.12.1920.1040" timestamp="1595431736257" />
-    <state width="2495" height="459" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="1867" height="119" key="GridCell.Tab.0.bottom/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600945974788" />
-    <state width="1027" height="453" key="GridCell.Tab.0.bottom/1920.-418.1080.1880/0.0.1920.1040@1920.-418.1080.1880" timestamp="1600941275282" />
-    <state width="1867" height="119" key="GridCell.Tab.0.center" timestamp="1600945974788">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1238" height="250" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610106711472" />
+    <state width="1238" height="250" key="GridCell.Tab.0.left" timestamp="1610106711471">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1855" height="282" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.12.1920.1040@-1920.12.1920.1040" timestamp="1595431736257" />
-    <state width="2495" height="459" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="1867" height="119" key="GridCell.Tab.0.center/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600945974788" />
-    <state width="1027" height="453" key="GridCell.Tab.0.center/1920.-418.1080.1880/0.0.1920.1040@1920.-418.1080.1880" timestamp="1600941275282" />
-    <state width="1867" height="119" key="GridCell.Tab.0.left" timestamp="1600945974787">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1238" height="250" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610106711471" />
+    <state width="1238" height="250" key="GridCell.Tab.0.right" timestamp="1610106711473">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1855" height="282" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.12.1920.1040@-1920.12.1920.1040" timestamp="1595431736257" />
-    <state width="2495" height="459" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="1867" height="119" key="GridCell.Tab.0.left/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600945974787" />
-    <state width="1027" height="453" key="GridCell.Tab.0.left/1920.-418.1080.1880/0.0.1920.1040@1920.-418.1080.1880" timestamp="1600941275282" />
-    <state width="1867" height="119" key="GridCell.Tab.0.right" timestamp="1600945974788">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1238" height="250" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610106711473" />
+    <state x="638" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1607807045107">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1855" height="282" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.12.1920.1040@-1920.12.1920.1040" timestamp="1595431736257" />
-    <state width="2495" height="459" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="1867" height="119" key="GridCell.Tab.0.right/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600945974788" />
-    <state width="1027" height="453" key="GridCell.Tab.0.right/1920.-418.1080.1880/0.0.1920.1040@1920.-418.1080.1880" timestamp="1600941275282" />
-    <state width="2495" height="459" key="GridCell.Tab.1.bottom" timestamp="1595438024356">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2495" height="459" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="2495" height="459" key="GridCell.Tab.1.center" timestamp="1595438024356">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2495" height="459" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="2495" height="459" key="GridCell.Tab.1.left" timestamp="1595438024356">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2495" height="459" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state width="2495" height="459" key="GridCell.Tab.1.right" timestamp="1595438024356">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2495" height="459" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595438024356" />
-    <state x="214" y="0" key="SettingsEditor" timestamp="1598843391068">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="214" y="0" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598843391068" />
-    <state x="983" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1600939409179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="983" y="326" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599042633543" />
-    <state x="1451" y="439" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.12.1920.1040@0.0.2560.1400" timestamp="1595851365288" />
-    <state x="1451" y="439" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1596973698419" />
-    <state x="983" y="326" key="com.intellij.ide.util.TipDialog/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1600939409179" />
+    <state x="638" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1607807045107" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ASUS_ECG$convertCSV.coverage" NAME="convertCSV Coverage Results" MODIFIED="1600941275277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JsonToCSV" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$readData.coverage" NAME="readData Coverage Results" MODIFIED="1595437764543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$convertCSV.coverage" NAME="convertCSV Coverage Results" MODIFIED="1610093107574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JsonToCSV" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$getJson.coverage" NAME="getJson Coverage Results" MODIFIED="1610092605138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JsonToCSV" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$makeTrainData__1_.coverage" NAME="makeTrainData (1) Coverage Results" MODIFIED="1610104054799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$filter.coverage" NAME="filter Coverage Results" MODIFIED="1610106711459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

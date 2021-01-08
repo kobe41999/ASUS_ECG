@@ -1,31 +1,47 @@
 import csv
 import config as C
-
-ECG = []
-allECG = []
-
-
-def takeNum(data):
-    result = ''.join(e for e in data if e.isdigit() or (e.split('-')[-1]).isdigit())
-    return result
+import pandas as pd
+from sklearn import preprocessing
+import numpy as np
 
 
-with open(C.trainCSV, newline='') as csvfile:
-    rows = csv.DictReader(csvfile)
-    for row in rows:
-        dataLength = len(row['ECG_DATA'].split(" "))
-        for i in range(dataLength):
-            ecgData = takeNum([row['ECG_DATA'].split(" ")[i]])
-            if ecgData != "":
-                ECG.append(ecgData)
+def changeToList(data):
+    dataList = []
+    first = data[0].replace("['", "")
+    dataList.append(first)
 
-        allECG.append(ECG)
-        ECG = []
-        # .clear()連賦予的值也會改變，故用Initial的方式
+    for i in range(len(data) - 3):
+        dataList.append(data[i + 1])
 
-with open('train.csv', 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    print(allECG[0])
-    for data in allECG:
-        writer.writerow(['Label', 'Normal'])
-        writer.writerow(data)
+    last = data[len(data) - 1].replace("']", "")
+    dataList.append(last)
+
+    return dataList
+
+
+if __name__ == '__main__':
+    df = pd.read_csv('./JsonToCSV/data0108.csv')
+    ecgList = []
+    recordLen = 10000
+    for i in range(len(df.ECG)):
+        ecgList.append(changeToList(df.ECG[i].split(" ")))
+
+    for j in range(len(ecgList)):
+        if recordLen > len(ecgList[j]):
+            recordLen = len(ecgList[j])
+    numOfRow = []
+
+    for k in range(recordLen - 1):
+        numOfRow.append(k)
+
+    with open('try.csv', 'w', newline='') as csvFile:
+        writer = csv.writer(csvFile)
+        writer.writerow(numOfRow)
+        for j in range(len(ecgList)):
+
+            # 標準化處理
+            npa = np.asarray(ecgList[j], dtype=np.float32)
+            norm = np.linalg.norm(npa)
+            normal_array = npa / norm
+
+            writer.writerow(normal_array[0:(recordLen - 1)])
