@@ -71,7 +71,7 @@ def output_test_graph(filename, first_signal, first_signal_label, second_signal=
     plt.xlabel('Samples')
     plt.ylabel('Amplitude(mv)')
     plt.title(f"Database {filename}")
-    if second_signal_label != None:
+    if second_signal_label is not None:
         plt.plot(second_signal[:samples_amount], color='b', linewidth=1, label=second_signal_label)
     plt.legend()
     plt.savefig(f'{filename}.png')

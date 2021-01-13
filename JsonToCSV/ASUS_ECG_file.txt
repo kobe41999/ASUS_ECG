@@ -19,3 +19,5 @@
 # dimensions/採樣數[0,1]: Integer
 
 # description/資料描述[0,1]: String
+
+# 手錶紀錄時間比實際時間慢八小時

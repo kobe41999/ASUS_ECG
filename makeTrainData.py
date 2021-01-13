@@ -20,7 +20,7 @@ def changeToList(data):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('./JsonToCSV/data0108.csv')
+    df = pd.read_csv('./JsonToCSV/data0112.csv')
     ecgList = []
     recordLen = 10000
     for i in range(len(df.ECG)):
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     for k in range(recordLen - 1):
         numOfRow.append(k)
 
-    with open('try.csv', 'w', newline='') as csvFile:
+    with open('try0112.csv', 'w', newline='') as csvFile:
         writer = csv.writer(csvFile)
         writer.writerow(numOfRow)
         for j in range(len(ecgList)):
