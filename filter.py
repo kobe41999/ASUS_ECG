@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument("--hp_ct", help='highpass cutoff frequency', type=float, default=0.25)
     parser.add_argument("--order", help='Butterworth filter order', type=int, default=8)
     parser.add_argument("--fl_sampleLG", help='How may sample for fix length', type=int, default=430)
-    parser.add_argument("--sample_rate", help='What is the data sampleing rate', type=int, default=500)
+    parser.add_argument("--sample_rate", help='What is the data sampleing rate', type=int, default=55)
     parser.add_argument("--output_tt_graph", help='Output test graph', type=bool, default=False)
     parser.add_argument("--database", help='ECG-ID / PTB / MIT-BIH', default="ECG-ID")
     parser.add_argument("--ptb_option", help='health subjects or all subjects ', default="health")
@@ -74,7 +74,7 @@ def output_test_graph(filename, first_signal, first_signal_label, second_signal=
     if second_signal_label is not None:
         plt.plot(second_signal[:samples_amount], color='b', linewidth=1, label=second_signal_label)
     plt.legend()
-    plt.savefig(f'{filename}.png')
+    plt.savefig(f'./figure/filterCompare/{filename}.png')
     plt.clf()
     plt.close()
     print("Finish creating figure.")
@@ -86,11 +86,13 @@ if __name__ == '__main__':
     print(args.database)
     with open('filtTry.csv', 'w', newline='') as Wr:
         writer = csv.writer(Wr)
-        with open('try.csv', newline='') as csvFile:
+        with open('try0118.csv', newline='') as csvFile:
             rows = csv.reader(csvFile)
+            count = 0
             for row in rows:
                 npa = np.asarray(row, dtype=np.float32)
-                # print(remove_baseline_wander(filter_signal(npa, 15, 55), 55))
-                output_test_graph('test', row, 'raw', remove_baseline_wander(filter_signal(npa, 20, 55), 55), 'after')
+                print(remove_baseline_wander(filter_signal(npa, 15, 55), 55))
+                output_test_graph(f'sample_{count}', row, 'raw', remove_baseline_wander(filter_signal(npa, 20, 55), 55),'after')
+                count += 1
 
                 # writer.writerow(remove_baseline_wander(filter_signal(npa, 15, 80), 80))
