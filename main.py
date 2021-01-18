@@ -3,6 +3,7 @@ import pickle
 import torch.nn as nn
 from tqdm import *
 from Model import RNN
+import EvalModel
 import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import Dataset, DataLoader
@@ -17,7 +18,7 @@ def parse_args():
     parser.add_argument("--num_hiddens", help='RNN hidden layer', type=int, default=1024)
     parser.add_argument("--num_layers", help='RNN Layer', type=int, default=1)
     parser.add_argument("--bidirectional", help='bidirectional or not', type=bool, default=True)
-    parser.add_argument("--epoch", help='epoch amount', type=int, default=200)
+    parser.add_argument("--epoch", help='epoch amount', type=int, default=2)
     parser.add_argument("--batch_size", help='batch size', type=int, default=8)
     parser.add_argument("--LR", help='learning rate', type=float, default=0.001)
     args = parser.parse_args()
@@ -160,16 +161,17 @@ if __name__ == '__main__':
             correct_pred = (predicted == target.data).sum()
             correct += correct_pred
             if (data_num + 1) % 10 == 0:
-                tqdm.write('Epoch [%d/%d], Iter [%d/%d] Loss: %.4f Acc: %.4f'
+                tqdm.write('\n Epoch [%d/%d], Iter [%d/%d] Loss: %.4f Acc: %.4f'
                            % (epoch + 1, args.epoch, data_num + 1, len(dataset_train) // args.batch_size, loss.item(),
                               (100 * correct_pred / target.size(0))))
         data_num = 0
-        tqdm.write('	train total accuracy: %.4f %%' % (100 * correct / total))
+        tqdm.write('\n train total accuracy: %.4f %%' % (100 * correct / total))
         trainArray.append(round(float(correct.item() / total), 5))
         lossTrainArray.append(round(float(loss.item()), 5))
         if 100 * correct / total > trainAcc:
             trainAcc = 100 * correct / total
 
-        # # rnn.test()
-        # for i, (data, target) in enumerate(test_loader):
-        #     outputs = rnn(data)
+    EvalModel.test(test_loader, rnn, loss_func, torch.cuda.is_available())
+    # # rnn.test()
+    # for i, (data, target) in enumerate(test_loader):
+    #     outputs = rnn(data)
