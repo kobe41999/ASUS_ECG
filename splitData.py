@@ -25,8 +25,8 @@ def output_peak_graph(filename, signal, peaks, threshold_value, wave_amount=3):
     print("Creating peak figure...")
     samples_amount = args.sample_rate * wave_amount
     plt.plot(signal[:samples_amount], color='r', linewidth=1, label="signal")
-    signalList = [signal[peaks[0]], signal[peaks[1]]]
-    plt.plot(peaks[:2], signalList, "x")
+    signalList = [signal[peaks[0]]]
+    plt.plot(peaks[:1], signalList, "x")
     plt.plot([threshold_value for i in range(samples_amount)], color='b', linewidth=1, label="threshold_value")
     plt.xlabel('Samples')
     plt.ylabel('Amplitude(mv)')
@@ -92,9 +92,9 @@ def ListStrToInt(test_list):
 
 if __name__ == '__main__':
     args = parse_args()
-    with open('try0118.csv', 'r') as csvFile:
+    with open('filtTry0120.csv', 'r') as csvFile:
         csv_reader = csv.reader(csvFile, delimiter=',')
-        with open('splitTry.csv', 'w', newline='') as File:
+        with open('splitTry0120.csv', 'w', newline='') as File:
             writer = csv.writer(File)
             count = 0
             for lines in csv_reader:

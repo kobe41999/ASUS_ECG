@@ -1,7 +1,7 @@
 from JsonToCSV.getJson import *
 import csv
 
-with open('data0118.csv', 'w', newline='') as csvfile:
+with open('data0120.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Time', 'Period', 'ECG', 'DeviceID'])
 

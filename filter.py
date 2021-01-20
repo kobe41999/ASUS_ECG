@@ -84,15 +84,14 @@ if __name__ == '__main__':
     args = parse_args()
     database_name = args.database.strip()
     print(args.database)
-    with open('filtTry.csv', 'w', newline='') as Wr:
+    with open('filtTry0120.csv', 'w', newline='') as Wr:
         writer = csv.writer(Wr)
         with open('try0118.csv', newline='') as csvFile:
             rows = csv.reader(csvFile)
             count = 0
             for row in rows:
                 npa = np.asarray(row, dtype=np.float32)
-                print(remove_baseline_wander(filter_signal(npa, 15, 55), 55))
                 output_test_graph(f'sample_{count}', row, 'raw', remove_baseline_wander(filter_signal(npa, 20, 55), 55),'after')
                 count += 1
 
-                # writer.writerow(remove_baseline_wander(filter_signal(npa, 15, 80), 80))
+                writer.writerow(remove_baseline_wander(filter_signal(npa, 15, 80), 80))
