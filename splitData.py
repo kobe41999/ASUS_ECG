@@ -92,9 +92,9 @@ def ListStrToInt(test_list):
 
 if __name__ == '__main__':
     args = parse_args()
-    with open('filtTry0120.csv', 'r') as csvFile:
+    with open('filtTry0126.csv', 'r') as csvFile:
         csv_reader = csv.reader(csvFile, delimiter=',')
-        with open('splitTry0120.csv', 'w', newline='') as File:
+        with open('splitTry0126.csv', 'w', newline='') as File:
             writer = csv.writer(File)
             count = 0
             for lines in csv_reader:

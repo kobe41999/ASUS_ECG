@@ -2,7 +2,7 @@ from torch import nn
 
 
 class Encoder(nn.Module):
-    def __init__(self, seq_len, n_features, embedding_dim=64):
+    def __init__(self, seq_len, n_features, embedding_dim):
         super(Encoder, self).__init__()
         self.seq_len, self.n_features = seq_len, n_features
         self.embedding_dim, self.hidden_dim = embedding_dim, 2 * embedding_dim
@@ -27,7 +27,7 @@ class Encoder(nn.Module):
 
 
 class Decoder(nn.Module):
-    def __init__(self, seq_len, input_dim=64, n_features=1):
+    def __init__(self, seq_len, input_dim, n_features=1):
         super(Decoder, self).__init__()
         self.seq_len, self.input_dim = seq_len, input_dim
         self.hidden_dim, self.n_features = 2 * input_dim, n_features
@@ -55,10 +55,10 @@ class Decoder(nn.Module):
 
 
 class RecurrentAutoencoder(nn.Module):
-    def __init__(self, seq_len, n_features, embedding_dim=64):
+    def __init__(self, seq_len, n_features, embedding_dim, device):
         super(RecurrentAutoencoder, self).__init__()
-        self.encoder = Encoder(seq_len, n_features, embedding_dim)
-        self.decoder = Decoder(seq_len, embedding_dim, n_features)
+        self.encoder = Encoder(seq_len, n_features, embedding_dim).to(device)
+        self.decoder = Decoder(seq_len, embedding_dim, n_features).to(device)
 
     def forward(self, x):
         x = self.encoder(x)

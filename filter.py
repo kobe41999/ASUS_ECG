@@ -84,9 +84,9 @@ if __name__ == '__main__':
     args = parse_args()
     database_name = args.database.strip()
     print(args.database)
-    with open('filtTry0120.csv', 'w', newline='') as Wr:
+    with open('filtTry0126.csv', 'w', newline='') as Wr:
         writer = csv.writer(Wr)
-        with open('try0118.csv', newline='') as csvFile:
+        with open('try0126.csv', newline='') as csvFile:
             rows = csv.reader(csvFile)
             count = 0
             for row in rows:
