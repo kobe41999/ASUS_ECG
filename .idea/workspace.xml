@@ -37,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ECG-Compression-with-AutoEncoder-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -194,7 +194,9 @@
       <workItem from="1610961625562" duration="3941000" />
       <workItem from="1610968318573" duration="39830000" />
       <workItem from="1611162608111" duration="1449000" />
-      <workItem from="1611589778980" duration="33366000" />
+      <workItem from="1611589778980" duration="37546000" />
+      <workItem from="1611866365324" duration="14000" />
+      <workItem from="1612092314275" duration="2576000" />
     </task>
     <servers />
   </component>
@@ -202,46 +204,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1611678834682">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="518" y="180" key="FileChooserDialogImpl" timestamp="1611866376991">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611678834682" />
-    <state width="1867" height="266" key="GridCell.Tab.0.bottom" timestamp="1611691754398">
+    <state x="518" y="180" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1611866376991" />
+    <state x="690" y="218" key="FileChooserDialogImpl/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611706777743" />
+    <state width="1867" height="61" key="GridCell.Tab.0.bottom" timestamp="1612100660003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="250" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610106711474" />
-    <state width="1867" height="266" key="GridCell.Tab.0.bottom/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611691754398" />
-    <state width="1867" height="266" key="GridCell.Tab.0.center" timestamp="1611691754398">
+    <state width="1867" height="61" key="GridCell.Tab.0.bottom/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1612100660003" />
+    <state width="1867" height="61" key="GridCell.Tab.0.center" timestamp="1612100660003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="250" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610106711472" />
-    <state width="1867" height="266" key="GridCell.Tab.0.center/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611691754398" />
-    <state width="1867" height="266" key="GridCell.Tab.0.left" timestamp="1611691754398">
+    <state width="1867" height="61" key="GridCell.Tab.0.center/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1612100660003" />
+    <state width="1867" height="61" key="GridCell.Tab.0.left" timestamp="1612100660003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="250" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610106711471" />
-    <state width="1867" height="266" key="GridCell.Tab.0.left/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611691754398" />
-    <state width="1867" height="266" key="GridCell.Tab.0.right" timestamp="1611691754398">
+    <state width="1867" height="61" key="GridCell.Tab.0.left/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1612100660003" />
+    <state width="1867" height="61" key="GridCell.Tab.0.right" timestamp="1612100660003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="250" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610106711473" />
-    <state width="1867" height="266" key="GridCell.Tab.0.right/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611691754398" />
-    <state width="1867" height="425" key="GridCell.Tab.1.bottom" timestamp="1611668804068">
+    <state width="1867" height="61" key="GridCell.Tab.0.right/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1612100660003" />
+    <state width="1867" height="425" key="GridCell.Tab.1.bottom" timestamp="1611847382565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="425" key="GridCell.Tab.1.bottom/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611668804068" />
-    <state width="1867" height="425" key="GridCell.Tab.1.center" timestamp="1611668804068">
+    <state width="1867" height="425" key="GridCell.Tab.1.bottom/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611847382565" />
+    <state width="1867" height="425" key="GridCell.Tab.1.center" timestamp="1611847382565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="425" key="GridCell.Tab.1.center/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611668804068" />
-    <state width="1867" height="425" key="GridCell.Tab.1.left" timestamp="1611668804068">
+    <state width="1867" height="425" key="GridCell.Tab.1.center/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611847382565" />
+    <state width="1867" height="425" key="GridCell.Tab.1.left" timestamp="1611847382565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="425" key="GridCell.Tab.1.left/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611668804068" />
-    <state width="1867" height="425" key="GridCell.Tab.1.right" timestamp="1611668804068">
+    <state width="1867" height="425" key="GridCell.Tab.1.left/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611847382565" />
+    <state width="1867" height="425" key="GridCell.Tab.1.right" timestamp="1611847382565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="425" key="GridCell.Tab.1.right/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611668804068" />
+    <state width="1867" height="425" key="GridCell.Tab.1.right/1920.-418.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1611847382565" />
     <state x="957" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1610968318317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,14 +255,14 @@
     <SUITE FILE_PATH="coverage/ASUS_ECG$tryLoad.coverage" NAME="tryLoad Coverage Results" MODIFIED="1611083689625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$try.coverage" NAME="try Coverage Results" MODIFIED="1611606194882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$covertCSVtoData.coverage" NAME="covertCSVtoData Coverage Results" MODIFIED="1611690520210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ASUS_ECG$main.coverage" NAME="main Coverage Results" MODIFIED="1611691754392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$main.coverage" NAME="main Coverage Results" MODIFIED="1612100659996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$convertCSV.coverage" NAME="convertCSV Coverage Results" MODIFIED="1611611323958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JsonToCSV" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$readData.coverage" NAME="readData Coverage Results" MODIFIED="1595437764543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$testGPU.coverage" NAME="testGPU Coverage Results" MODIFIED="1611060951891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$makeTrainData__1_.coverage" NAME="makeTrainData (1) Coverage Results" MODIFIED="1610965180670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$filter.coverage" NAME="filter Coverage Results" MODIFIED="1611690553529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$tryAutoEncoder.coverage" NAME="tryAutoEncoder Coverage Results" MODIFIED="1611088930537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ASUS_ECG$splitData.coverage" NAME="splitData Coverage Results" MODIFIED="1611690573699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ASUS_ECG$splitData.coverage" NAME="splitData Coverage Results" MODIFIED="1612100628956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ASUS_ECG$getJson.coverage" NAME="getJson Coverage Results" MODIFIED="1610092605138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JsonToCSV" />
   </component>
 </project>
